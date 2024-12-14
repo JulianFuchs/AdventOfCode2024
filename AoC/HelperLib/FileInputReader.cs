@@ -2,11 +2,9 @@
 {
     public static class FileInputReader
     {
-        public static string[] ReadInputFile()
+        public static string[] ReadInputFile(string filename = "input.txt")
         {
-            var filePath = "input.txt";
-
-            string[] lines = File.ReadAllLines(filePath);
+            string[] lines = File.ReadAllLines(filename);
             
             return lines;
         }
