@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLib", "HelperLib\HelperLib.csproj", "{74E75E75-AD58-4715-A576-116CF26F96D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_HistorianHysteria", "Day1_HistorianHysteria\Day1_HistorianHysteria.csproj", "{D06E39A5-5364-4F48-9292-1BB6769F921E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_MullItOver", "Day3_MullItOver\Day3_MullItOver.csproj", "{F64CB061-DA94-4505-A7B9-DE764EB51870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E75E75-AD58-4715-A576-116CF26F96D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E75E75-AD58-4715-A576-116CF26F96D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E75E75-AD58-4715-A576-116CF26F96D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E75E75-AD58-4715-A576-116CF26F96D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D06E39A5-5364-4F48-9292-1BB6769F921E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06E39A5-5364-4F48-9292-1BB6769F921E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06E39A5-5364-4F48-9292-1BB6769F921E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06E39A5-5364-4F48-9292-1BB6769F921E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64CB061-DA94-4505-A7B9-DE764EB51870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64CB061-DA94-4505-A7B9-DE764EB51870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64CB061-DA94-4505-A7B9-DE764EB51870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64CB061-DA94-4505-A7B9-DE764EB51870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
