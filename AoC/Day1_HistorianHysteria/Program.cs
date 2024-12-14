@@ -1,5 +1,6 @@
 ﻿using Day1_HistorianHysteria;
 using Day1_HistorianHysteria.CommonHelpers;
+using HelperLib;
 
 Console.WriteLine("Hello, World!");
 

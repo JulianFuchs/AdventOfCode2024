@@ -1,4 +1,4 @@
-﻿namespace Day1_HistorianHysteria.CommonHelpers
+﻿namespace HelperLib
 {
     public interface IInputConverter<T>
     {

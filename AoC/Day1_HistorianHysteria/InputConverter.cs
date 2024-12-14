@@ -1,8 +1,7 @@
-﻿namespace Day1_HistorianHysteria.CommonHelpers
+﻿using HelperLib;
+
+namespace Day1_HistorianHysteria.CommonHelpers
 {
-
-
-
     internal class InputConverter : IInputConverter<Tuple<List<int>, List<int>>>
     {
         public Tuple<List<int>, List<int>> ConvertInput(string[] input)
