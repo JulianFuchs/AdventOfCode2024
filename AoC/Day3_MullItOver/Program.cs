@@ -3,22 +3,22 @@
 using Day3_MullItOver;
 using HelperLib;
 
-Console.WriteLine("Solving for first star *");
+AdventLogger.WriteStarting(1);
 
 var input = FileInputReader.ReadInputFile();
 
 var solution1 = SolverFirstStar.Solve(input);
 
-Console.WriteLine($"Solution for first star *: {solution1}");
+AdventLogger.WriteSolution(1, solution1);
 
-Console.WriteLine("----------------------");
+AdventLogger.WriteSeparator();
 
-Console.WriteLine("Solving for second star **");
+AdventLogger.WriteStarting(2);
 
 var convertedInput = new InputConverterStar2().ConvertInput(input);
 
 var solution2 = Solver2ndStar.Solve(convertedInput);
 
-Console.WriteLine($"Solution for second star **: {solution2}");
+AdventLogger.WriteSolution(2, solution2);
 
 
