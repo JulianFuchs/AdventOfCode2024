@@ -11,7 +11,8 @@ var matrix = new InputConverterStar1().ConvertInput(input);
 
 AdventLogger.WriteStarting(1);
 
-var resultFirstStar = SolverFirstStar.GetInstance().Solve(matrix);
+var solver = Solver.GetInstance(matrix);
+var resultFirstStar = solver.SolveFirstStar();
 
 AdventLogger.WriteSolution(1, resultFirstStar);
 
@@ -19,4 +20,6 @@ AdventLogger.WriteSeparator();
 
 AdventLogger.WriteStarting(2);
 
+var resultSecondStar = solver.SolveSecondStar();
 
+AdventLogger.WriteSolution(2, resultSecondStar);
